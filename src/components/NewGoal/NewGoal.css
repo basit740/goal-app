@@ -1,0 +1,22 @@
+.new-goal{
+    border-radius: 5px;
+    
+    
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.control-group{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.control-group input, button{
+    padding: 10px;
+    margin-left: 5px;
+
+}
+.control-group button{
+    background-color: palevioletred;
+    color: white;
+    cursor: pointer;
+}

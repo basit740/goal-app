@@ -1,0 +1,35 @@
+.goal{
+    background-color:palevioletred;
+    color:white;
+    margin-bottom: 5px;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 5px;
+    cursor: pointer;
+    opacity: 0.8;
+    position: relative;
+    transition: height 0ms 0ms, opacity 600ms 0ms;
+}
+.goal:hover{
+    opacity: 1;
+}
+
+.goal .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 2px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    left: 100%;
+    z-index: 1;
+  }
+  
+  .goal:hover .tooltiptext {
+    visibility: visible;
+  }
